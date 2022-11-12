@@ -1,0 +1,21 @@
+[2022-11-12 13:32:37,106] multiqc                                            [DEBUG  ]  This is MultiQC v1.13
+[2022-11-12 13:32:37,107] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc .
+[2022-11-12 13:32:37,855] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.13
+[2022-11-12 13:32:37,855] multiqc                                            [DEBUG  ]  Working dir : /content/modulo6-results/desafio1-qc
+[2022-11-12 13:32:37,855] multiqc                                            [DEBUG  ]  Template    : default
+[2022-11-12 13:32:37,855] multiqc                                            [DEBUG  ]  Running Python 3.7.15 (default, Oct 12 2022, 19:14:55)  [GCC 7.5.0]
+[2022-11-12 13:32:37,856] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2022-11-12 13:32:37,856] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpzpeds8cc
+[2022-11-12 13:32:37,987] multiqc                                            [INFO   ]  Search path : /content/modulo6-results/desafio1-qc
+[2022-11-12 13:32:38,503] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 54] // [skipped_no_match: 36]
+[2022-11-12 13:32:38,839] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.2.2
+[2022-11-12 13:32:38,840] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.2.2
+[2022-11-12 13:32:38,841] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2022-11-12 13:32:38,852] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'NA12878-20k_R2_fastqc.zip' as already parsed 'NA12878-20k_R2'
+[2022-11-12 13:32:38,852] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'NA12878-20k_R1_fastqc.zip' as already parsed 'NA12878-20k_R1'
+[2022-11-12 13:32:38,852] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports
+[2022-11-12 13:32:38,917] multiqc                                            [INFO   ]  Compressing plot data
+[2022-11-12 13:32:38,957] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2022-11-12 13:32:38,957] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2022-11-12 13:32:38,957] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpzpeds8cc/multiqc_data' to '/content/modulo6-results/desafio1-qc/multiqc_data'
+[2022-11-12 13:32:39,075] multiqc                                            [INFO   ]  MultiQC complete
