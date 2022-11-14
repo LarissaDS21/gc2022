@@ -1,0 +1,16 @@
+This is cutadapt 4.1 with Python 3.7.15
+Command line parameters: -l -100 -o /content/modulo6-results/desafio2-trimming/R1_rm100pb.fastq -p /content/modulo6-results/desafio2-trimming/R2_rm100pb.fastq /content/modulo6-results/desafio2-trimming/R1_trimmingQ30.fastq /content/modulo6-results/desafio2-trimming/R2_trimmingQ30.fastq
+Processing paired-end reads on 1 core ...
+Finished in 0.19 s (9 µs/read; 6.37 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:             20,000
+Pairs written (passing filters):        20,000 (100.0%)
+
+Total basepairs processed:     6,913,529 bp
+  Read 1:     4,293,324 bp
+  Read 2:     2,620,205 bp
+Total written (filtered):      3,618,841 bp (52.3%)
+  Read 1:     1,912,197 bp
+  Read 2:     1,706,644 bp
